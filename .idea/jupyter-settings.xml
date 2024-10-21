@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="6088410ae55c622588290d251fd5ec5786d69d9e3eb82f23" />
+          <option name="urlString" value="http://127.0.0.1:8899/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="6088410ae55c622588290d251fd5ec5786d69d9e3eb82f23" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="cfaed663fdce41b5563ad581fe347eb1265f345046a66b88" />
+          <option name="urlString" value="http://localhost:8899/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="cfaed663fdce41b5563ad581fe347eb1265f345046a66b88" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../Entailment/ASER2.0/.idea/ASER2.0.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="cfaed663fdce41b5563ad581fe347eb1265f345046a66b88" />
+              <option name="urlString" value="http://localhost:8899/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="cfaed663fdce41b5563ad581fe347eb1265f345046a66b88" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
