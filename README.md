@@ -48,11 +48,13 @@ There are 5 episodes per house in the training set and 4 episodes per house in v
 
 **New episodes sampling:** Use the ```sample_data/generate_trajectories.py``` to generate more trajectories.
 
+**Instruction File:** We uploaded to the DivScene-DivTraj huggingface dataset. Here is the [link](https://huggingface.co/datasets/ZhaoweiWang/DivScene-DivTraj/blob/main/new_cot_nd_stp8_train_tn5_sr0.25_in4.json).
+
 ## Training Models
 ### 1. Prepare Data: We revise our training code based on [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) framework and [Pai-Megatron](https://github.com/alibaba/Pai-Megatron-Patch).
 We provide a Large Vision Language Models (LVLM) with the instruction of a step and ask it to generate the next step. Here, we follow the instruction data format of 
 [Llava](https://github.com/haotian-liu/LLaVA). We use ```convert_to_llava_format_with_pos_cot.py``` to convert ```DivTraj``` trajectories into the Llava format and
-also list useful commands in ```convert_to_llava_format.sh```.
+also list useful commands in ```convert_to_llava_format.sh```. The instruction file is at [here](https://huggingface.co/datasets/ZhaoweiWang/DivScene-DivTraj/blob/main/new_cot_nd_stp8_train_tn5_sr0.25_in4.json).
 
 ### 2. Train Model:
 1. First, use ```webdataset``` to compress the data. The script is ```agent_training/toolkits/pretrain_data_preprocessing/move_bulk_data.py```. ```webdataset``` can speed up the data loading when training the model.
